@@ -1,0 +1,208 @@
+/* Styles pour la page "À Propos" */
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f4f4f4;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+header .logo {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+header nav {
+	display: inline-block;
+	
+	margin: 25px 0;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+header nav ul li a {
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+	color: #f05945;
+}
+
+/* Main Content Styles */
+main {
+	margin-top: 100px;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+}
+
+footer p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+footer ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+footer ul li {
+	margin: 0 10px;
+}
+
+footer ul li a {
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+	color: #f05945;
+}
+
+
+
+body {
+  font-family: Arial,sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styles pour la section "Équipe" */
+.team {
+  margin-top: 50px;
+}
+
+.team h2 {
+  font-size: 24px;
+}
+
+.member {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.member p {
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+
+
+/* Styles pour les liens */
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
